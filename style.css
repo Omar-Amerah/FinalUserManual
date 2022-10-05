@@ -1,0 +1,181 @@
+body
+{
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.text
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header
+{
+    width: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 56, 56);
+}
+h1
+{
+    margin-left:27px ;
+    padding: 20px;
+    font-size: 3vw;
+}
+nav
+{
+    padding: 20px;
+    font-size: 1vw;
+}
+nav a
+{
+    padding: 30px;
+}
+nav a:hover
+{
+    font-size: 105%;
+}
+main
+{
+    margin: 0px;
+    font-size: 1vw;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+footer
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    font-size: 2vh;
+    background-color: rgb(56, 56, 56); 
+}
+
+
+#gaming
+{
+    border-radius: 20px;
+    height: 25vw;
+    width: 35vw;
+}
+#boardgame
+{
+    border-radius: 20px;
+    height: 25vw;
+    width: 50vw;
+    flex-wrap: wrap;
+}
+#history
+{
+    border-radius: 20px;
+    height: 25vw;
+    width: 40vw;
+}
+#coding
+{
+    border-radius: 20px;
+    height: 25vw;
+    width: 45vw;
+}
+#github
+{
+    height: 100px;
+    width: 100px;
+}
+#Steam
+{
+    height: 100px;
+    width: 100px;
+}
+#Instagram
+{
+    height: 100px;
+    width: 100px;
+}
+.sideimg:hover
+{
+    opacity: 70%;
+}
+#sidebar
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 131px;
+    background-color: #f1f1f1;
+}
+#sidebar a 
+{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+#coloumngrid
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+@media(min-width: 1025px)
+{
+    #menu
+    {
+        display: none;
+    }
+}
+@media(min-width: 480px) and (max-width:1024px)
+{
+    #sidebar
+    {
+        display: none;
+    }
+    h1
+    {
+        font-size: 3vw;
+    }
+    main
+    {
+        font-size: 2vw;
+    }
+    footer
+    {
+        font-size: 2vw;
+    }
+    nav
+    {
+        font-size: 2vw;
+    }
+}
+@media(max-width: 480px)
+{
+    #sidebar
+    {
+        display: none;
+    }
+    h1
+    {
+        font-size: 5vw;
+    }
+    main
+    {
+        font-size: 4vw;
+    }
+    footer
+    {
+        font-size: 4vw;
+    }
+    nav
+    {
+        font-size: 3vw;
+        padding: 8px;
+    }
+}
+
+.list
+{
+    list-style: none;
+}
+#email
+{
+    color: rgb(255, 255, 255);
+}
